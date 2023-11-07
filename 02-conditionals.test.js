@@ -12,9 +12,8 @@ describe("Condicionales en JavaScript", () => {
         if (name.length >= 6) {
             result = "Lara tiene un nombre largo"
         }
-
         // Edita el assert (los "???") para que pase el test
-        assert.strictEqual(result,"???");
+        assert.strictEqual(result,"Lara tiene un nombre corto");
     })
 
 
@@ -30,7 +29,7 @@ describe("Condicionales en JavaScript", () => {
         }
 
         // Edita el assert (los "???") para que pase el test
-        assert.strictEqual(result,"???");
+        assert.strictEqual(result,name + " es mayor de edad.");
     })
 
 
@@ -47,7 +46,7 @@ describe("Condicionales en JavaScript", () => {
         }
 
         // Edita el assert (los "???") para que pase el test
-        assert.strictEqual(result,"???");
+        assert.strictEqual(result,"Pizza con " + b);
     })
 })
 

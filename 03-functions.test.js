@@ -9,7 +9,7 @@ describe("Funciones en JavaScript", () => {
         let name = "Rosa";
 
         // Escribe aquí tu funcion "saludar"
-
+        return ("Hola, " + name)
 
         assert.strictEqual(saludar(name),"Hola, Rosa");
     })
@@ -20,7 +20,7 @@ describe("Funciones en JavaScript", () => {
         let num2 = 10;
 
         // Escribe aquí tu función "suma"
-
+        return (num1 + num2);
 
         assert.strictEqual(suma(num1, num2),27);
     })
@@ -34,7 +34,7 @@ describe("Funciones en JavaScript", () => {
         let rainProbability = "10%";
 
         // Escribe aquí tu función "weatherReport" (fíjate en la aserción para saber qué debe retornar esta función).
-
+        return("Hola " + name + "(" + userName + "), hoy en " + city + " el tiempo es " + weather + " y las probabilidades de lluvia son del " + rainProbability + ".")
         assert.strictEqual(weatherReport(userName, name, city, weather, rainProbability)).toEqual("Hola Ada Martín (ada89), hoy en Las Vegas el tiempo es soleado y las probabilidades de lluvia son del 10%.");
     })
 
@@ -52,7 +52,7 @@ describe("Funciones en JavaScript", () => {
         let password = "p4s$w0rDs3guR0";
 
         function userAuth(userName, userEmail, password) {
-            return "Welcome ${userName}, your email is ${userEmail} and your password is ${password}."
+            return ("Welcome ${userName}, your email is ${userEmail} and your password is ${password}.")
         } */
 
 
